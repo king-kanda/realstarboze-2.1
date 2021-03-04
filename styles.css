@@ -1,0 +1,268 @@
+/*styles*/
+
+    div.masthead{
+        background: url("/img/sub-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+        background-position: center center;
+        min-height: 3rem;
+        position: relative;
+        display: table;
+        padding-bottom: 8rem;
+        padding-top: 12rem;
+        height: 100vh;
+        width:100%;
+    }
+    .mast-header{
+        color: #f7a40af3;
+        font-size: large;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+    }
+    p.mast-about{
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: serif;
+        
+    }
+    .navbar-brand , .nav-link{
+        color: aliceblue;
+    }
+    .nav-link:hover{
+        color: #f7a40af3;
+        font-size: 16px;
+    }
+    span{
+        color: #f7a40af3;
+    }
+    .mast-btn{
+        
+        align-self: center;
+       
+    }
+    img.card-img{
+        height: 75vh;
+    
+    }
+    .body-cont{
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+    .card-title{
+        color: #dc3545;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+    
+    }
+    hr.line{
+        border-top: 5px solid #dc3545;
+    }
+    
+    hr.line2{
+        border-top: 2px solid #dc3545;
+    }
+    .card-text{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0%;
+    
+    }
+    div.card{
+        border: 0em;
+    
+    }
+    .card-footer{
+        background: #dc3545;
+        color: #fffffff3;
+    }
+    span.badge{
+        color: #dc3545;
+    }
+    .footer{
+        background-color:  #343A40;
+        color: white;
+        padding: 1rem;
+    }
+    a.list-group-item{
+        background-color: #343a40;
+        border:0px;
+        color: white;
+    
+        
+    }
+    div.footer-note{
+        color: white;
+    }
+    h3{
+        color: #dc3545;
+        font-weight: lighter;
+    }
+    .mast-btn{
+        margin-left: 8rem;
+    }
+   #contact-info{
+       margin-left: 20rem;
+       margin-right: 20rem;
+       padding-top: 3rem;
+       
+   }
+   .icons{
+    font-size: 40px;
+   }
+.icons:hover{
+    color:  #f7a40af3;
+}
+a.dropdown-item{
+    color: white;
+}
+
+a.dropdown-item:hover{
+    background-color: #f7a40a;
+    color: white;
+}
+
+@media(max-width:768px){
+    div.masthead{
+        background: url("/img/emile-seguin-R9OueKOtGGU-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+        background-position: center center;
+        min-height: 3rem;
+        position: relative;
+        display: table;
+        padding-bottom: 6rem;
+        padding-top: 10rem;
+        height: 75vh;
+        width:100%;
+    }
+    .mast-header{
+        color: #f7a40af3;
+        font-size: large;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+    }
+    p.mast-about{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: serif;
+        
+        
+    }
+    img.card-img{
+        height: 50vh;
+    }
+    card-title{
+        color: #dc3545;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+    
+    }
+    hr.line{
+        border-top: 5px solid #dc3545;
+    }
+    
+    hr.line2{
+        border-top: 2px solid #dc3545;
+    }
+    .card-text{
+        font-size:15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0%;
+    
+    }
+    .card-footer{
+        font-size: 10px;
+    }
+    .mast-btn-mob{
+        display: none;
+    }
+}
+
+@media(max-width:576px){
+    div.masthead{
+        background: url("/img/sub-banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+        background-position: center center;
+        min-height: 3rem;
+        position: relative;
+        display: table;
+        padding-bottom: 2rem;
+        padding-top: 4rem;
+        height: 25vh;
+        width:100%;
+        
+    }
+    .mast-header{
+        color: #f7a40af3;
+        font-size: large;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        display: none;
+    }
+    img.card-img{
+        height: 50vh;
+    }
+    card-title{
+        color: #dc3545;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+    
+    }
+    hr.line{
+        border-top: 5px solid #dc3545;
+    }
+    
+    hr.line2{
+        border-top: 2px solid #dc3545;
+    }
+    .card-text{
+        font-size:15px;
+        font-family:sans-serif;
+        padding: 0%;
+        font-weight: lighter;
+        
+    
+    }
+    .card-footer{
+        font-size: 16px;
+    }
+    p.mast-about{
+        color:rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: serif;
+        
+        
+    }
+    .body-cont{
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+    
+    #footer-menu{
+        display: none;
+    }
+    #contact-info{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-top: 1rem;
+        
+    }
+ 
+    .icons{
+     font-size: 20px;
+    }
+ .icons:hover{
+     color: #f7a40af3;
+ }
+ 
+}
